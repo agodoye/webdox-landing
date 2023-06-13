@@ -18,11 +18,26 @@ h1 {
     line-height: 55px;
 }
 
+H2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 45px;
+}
+
+H3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+}
+
 h4 {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 300
-    ;
+    font-weight: 300;
     font-size: 20px;
     line-height: 30px;
 }
@@ -163,3 +178,12 @@ nav a:hover {
 #destacadoVideo span{
     color: #3A4EF2;
 }
+
+#beneficios {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 150px;
+}
+
+
