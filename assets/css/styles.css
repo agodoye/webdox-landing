@@ -94,7 +94,7 @@ nav a:hover {
 #principal {
     position: sticky;
     z-index: 1;
-    padding: 60px 40px 0 0;
+    padding: 60px 0 0 0;
 }
 
 #heroSection h1 span {
@@ -109,6 +109,18 @@ nav a:hover {
 
 #cta_header {
     position: relative;
-    margin-top: -70px;
+    margin-top: -80px;
     color: #263238;
+}
+
+#cta_header button{
+    background-color: transparent;
+    border: 2px solid #263238;
+    border-radius: 5px;
+    color: #263238;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    height: 43px;
+    width: 100%;
 }
