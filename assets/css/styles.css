@@ -187,12 +187,12 @@ nav a:hover {
 }
 
 #utilidades_top {
-    background: url(/assets/img/utilidades_top_bg.png) no-repeat center center ; 
+    background: url(/assets/img/utilidades_top_bg.png) no-repeat center ; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 303.4px;
+    min-height: 303.4px;
     margin-top: -100px;
 }
 
@@ -202,7 +202,7 @@ nav a:hover {
     margin: 0 auto;
 }
 
-.utilidades_titulos span{
+span{
     color: #3A4EF2;
 }
 
@@ -245,3 +245,16 @@ nav a:hover {
     background-color: red;
     transition: 0.2s;
 } */
+
+#interfaz_top {
+    background: url(/assets/img/interfaz_top_bg.png) no-repeat center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 280px;
+}
+
+#interfaz img{
+    margin-top: -120px;
+}
