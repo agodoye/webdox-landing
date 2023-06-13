@@ -18,10 +18,19 @@ h1 {
     line-height: 55px;
 }
 
+h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300
+    ;
+    font-size: 20px;
+    line-height: 30px;
+}
+
 p {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
     line-height: 25px;
 }
@@ -29,6 +38,10 @@ p {
 nav {
     height: 80px;
     background-color: #3A4EF2;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 2;
 }
 
 nav img {
@@ -37,12 +50,12 @@ nav img {
 
 nav a {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 nav a:hover {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     color: #48FFFF!important;
 }
 
@@ -54,6 +67,11 @@ nav a:hover {
     text-align: center;
     display: flex;
     align-items: flex-start;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 80px;
+    z-index: 2;
 }
 
 #contenido p{
@@ -78,9 +96,10 @@ nav a:hover {
 }
 
 #heroSection {
-    /* background: #263238;
-    border-radius: 0px 0px 30px 30px;
-    padding: 80px 0 0; */
+    position: relative;
+    right: 0;
+    left: 0;
+    top: 140px;
 }
 
 #heroSection img {
@@ -123,4 +142,24 @@ nav a:hover {
     font-weight: 700;
     height: 43px;
     width: 100%;
+}
+
+#cta_header button:hover{
+    box-shadow: 0px 5px 20px -5px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: 0;
+}
+
+#destacadoVideo {
+    color: #263238;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+}
+
+#destacadoVideo span{
+    color: #3A4EF2;
 }
