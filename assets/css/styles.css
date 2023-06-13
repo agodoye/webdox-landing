@@ -187,10 +187,8 @@ nav a:hover {
 }
 
 #utilidades_top {
-    background: url(/assets/img/top_bg_utilidades.png) no-repeat center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-image: url("../img/top_bg_utilidades.png"); 
+    background-repeat: no-repeat;
     background-size: cover;
     min-height: 303.4px;
     margin-top: -100px;
@@ -248,10 +246,8 @@ span{
 } */
 
 #interfaz_top {
-    background: url(/assets/img/top_bg_interfaz.png) no-repeat center ; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-image: url("../img/top_bg_interfaz.png"); 
+    background-repeat: no-repeat;
     background-size: cover;
     min-height: 280px;
 }
