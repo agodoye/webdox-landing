@@ -271,10 +271,11 @@ span{
     border-radius: 30px!important;
     border: 0!important;
     margin-top: 50px!important;
+    margin-left: 110px!important;
 }
 
 .img-fluid {
-    margin: 20px 0;
+    margin: 5% 0;
     position: absolute;
     left: -110px;
 }
@@ -283,6 +284,19 @@ span{
     width: 80%;
     position: relative;
     margin-left: 110px;
+}
+
+.en_linea {
+    display: flex;
+    margin: 0!important;
+    padding: 0!important;
+    left: 0;
+}
+
+#img_cita_testimonio {
+    position: relative;
+    left: 0;
+    margin: -10px 0 -20px -20px;
 }
 
 #clientes img{
