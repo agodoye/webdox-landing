@@ -8,7 +8,7 @@ body {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
-    background-color: #F3F8F9;
+    background-color: #F3F8F9!important;
 }
 
 h1 {
@@ -21,7 +21,7 @@ h1 {
 H2 {
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 700!important;
     font-size: 35px;
     line-height: 45px;
 }
@@ -29,7 +29,7 @@ H2 {
 H3 {
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600!important;
     font-size: 30px;
     line-height: 35px;
 }
@@ -183,7 +183,65 @@ nav a:hover {
     position: relative;
     left: 0;
     right: 0;
-    top: 150px;
+    padding-top: 150px;
 }
 
+#utilidades_top {
+    background: url(/assets/img/utilidades_top_bg.png) no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 303.4px;
+    margin-top: -100px;
+}
 
+#utilidades_titulos {
+    padding-top: 60px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.utilidades_titulos span{
+    color: #3A4EF2;
+}
+
+.cuatroColumnas {
+    background-color: #3A4EF2;
+}
+
+.card-icono-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 10px 10px;
+    gap: 20px;
+    text-align: center;
+    color: white;
+/* tamaño */
+    width: 250px!important;
+    height: 100%;
+/* azul */
+    background: #3A4EF2;
+    border-radius: 30px;
+}
+
+.card-icono-texto img {
+    width: 5em;
+}
+
+.cuatroColumnas h3{
+    color: #48FFFF;
+}
+
+/* .card-icono-texto:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 5px 20px -5px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.card-icono-texto.col-3:hover{
+    mix-blend-mode: difference;
+    background-color: red;
+    transition: 0.2s;
+} */
